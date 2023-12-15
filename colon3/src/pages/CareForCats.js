@@ -1,13 +1,14 @@
 import React from 'react';
 
-function CareForCats() {
+export const CareForCats = () => {
     return (
-      <div className="CareForCats">
-        
+      <body>
+      <div>
+        <article> fghfgjfh</article>
           <h1>cats are aliens.com/ CareForCats page</h1>
           
       </div>
+      </body>
     );
   }
   
-  export default CareForCats;

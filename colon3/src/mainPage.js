@@ -1,10 +1,11 @@
 import React from 'react';
 // import ReactDOM from 'react-dom/client';
+import logo from './img/catto.jpg';
 import Routes from "./RoutesRoutingRoute.js"
 import './App.css';
 
 
-function App() {
+function mainPage() {
   return (
     
     <body className="center">
@@ -13,13 +14,28 @@ function App() {
           <h2>logo spot</h2>
       </header>
       {/* center body :) */}
-      
-        
+      <Routes/>
+      <div className='input-div'>
+        <input type="text" placeholder="cat Search"></input>
+      </div>
+
+        <img src={logo} className="App-logo" alt="logo" />
 
         
         <br/>
-        <Routes/>
+        <div className='App-cards-container'>
+        <article id='corner'>
+          ca1
+        </article>
         <br/>
+        <article id='corner'>
+          cat2
+        </article>
+        <br/>
+        <article id='corner'>
+          cat3
+        </article>
+        </div>
 
 
         {/* prefooter  */}
@@ -46,5 +62,5 @@ function App() {
   );
 }
 
-export default App;
+export default mainPage;
 

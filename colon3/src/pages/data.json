@@ -1,0 +1,20 @@
+{
+  "cats":
+  [
+    {
+      "name": "Alien",
+      "sex": "F",
+      "breed": "we dont know",
+      "age": "2 months",
+      "link": "kghklkhkv"
+      
+    },
+    {
+        "name": "Wisek",
+        "sex": "M",
+        "breed": "orange cat, AKA the lord",
+        "age": "16 years",
+        "link": "kghklkhkv"
+    }
+  ]
+}

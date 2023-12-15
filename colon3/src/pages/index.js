@@ -1,13 +1,26 @@
 import React from 'react';
+import data from "./data.json";
+import logo from './catto.jpg';
 
-function Home() {
+export const Home = () => {
     return (
-      <div>
-        
-          <h1>cats are aliens.com/ home page</h1>
-          
+      <body>
+        <div>
+        <div className='input-div'>
+        <input type="text" placeholder="cat Search"></input>
       </div>
+      <img src={logo} className="App-logo" alt="logo" />
+
+            <h1>cats are aliens.com/ home page</h1>
+            <div className='catBoxesContainer'>
+              <cat-box id='corner'>
+                
+              {data.cats.name}
+              </cat-box>
+            </div>
+        </div>
+
+      </body>
     );
   }
   
-  export default Home;
